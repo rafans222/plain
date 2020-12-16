@@ -1,0 +1,15 @@
+texto
+h: 00, 00 (head)
+t: 00, 00 (tail)
+
+He was the son of Máel Dúin mac Máele Fithrich, and grandson of the high king Áed Uaridnach (died 612).
+h: 18, 46 (Máel Dúin mac Máele Fithrich)
+t: 78, 91 (Áed Uaridnach)
+
+Like Siegfried Sassoon, Schuster was of Jewish descent.
+h: 0, 14 (Siegfried Sassoon)
+t: 40, 46 (Jewish)
+
+He narrowly beat his nearest opponent, Maxime Carlot Korman, the leader of the Vanuatu Republican Party.
+h: 39, 59 (Maxime Carlot Korman)
+t: 79, 103(Vanuatu Republican Party)

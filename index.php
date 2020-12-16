@@ -34,8 +34,7 @@ if ($realizarBusca){
                                     '.$_REQUEST['txtBusca'].' owl:equivalentClass* ?type .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -43,8 +42,7 @@ if ($realizarBusca){
                                     ?type owl:equivalentClass* '.$_REQUEST['txtBusca'].' .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -52,8 +50,7 @@ if ($realizarBusca){
                                     '.$_REQUEST['txtBusca'].' rdfs:subClassOf* ?type .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -61,8 +58,7 @@ if ($realizarBusca){
                                     ?type rdfs:subClassOf* '.$_REQUEST['txtBusca'].' .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -70,8 +66,7 @@ if ($realizarBusca){
                                     '.$_REQUEST['txtBusca'].' prov:wasDerivedFrom*  ?type .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -79,8 +74,7 @@ if ($realizarBusca){
                                     ?type prov:wasDerivedFrom* '.$_REQUEST['txtBusca'].' .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         }
@@ -113,8 +107,7 @@ if ($realizarBusca){
                                 ?predicateURI rdfs:label ?predicateLabel.
 
                                 FILTER (
-                                        LANG(?predicateLabel) = "en" ||
-                                        LANG(?predicateLabel) = "pt" 	#em inglês ou português
+                                        LANG(?predicateLabel) = "en"
                                 )
                             }
                         } UNION {
@@ -127,8 +120,7 @@ if ($realizarBusca){
                                 ?predicateURI rdfs:label ?predicateLabel.
 
                                 FILTER (
-                                    LANG(?predicateLabel) = "en" ||
-                                    LANG(?predicateLabel) = "pt" #em inglês ou português
+                                    LANG(?predicateLabel) = "en"
                                 )
                             }
                         }
@@ -158,8 +150,7 @@ if ($realizarBusca){
                                 ?predicateURI rdfs:label ?predicateLabel.
 
                                 FILTER (
-                                       LANG(?predicateLabel) = "en" ||
-                                       LANG(?predicateLabel) = "pt" 	#em inglês ou português
+                                       LANG(?predicateLabel) = "en"
                                 )
                             }
                         } UNION {
@@ -172,8 +163,7 @@ if ($realizarBusca){
                                 ?predicateURI rdfs:label ?predicateLabel.
 
                                 FILTER (
-                                    LANG(?predicateLabel) = "en" ||
-                                    LANG(?predicateLabel) = "pt" #em inglês ou português
+                                    LANG(?predicateLabel) = "en"
                                 )
                             }
                         }
@@ -205,8 +195,7 @@ if ($realizarBusca2){
                                     '.$_REQUEST['txtBusca2'].' owl:equivalentClass* ?type .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -214,8 +203,7 @@ if ($realizarBusca2){
                                     ?type owl:equivalentClass* '.$_REQUEST['txtBusca2'].' .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -223,8 +211,7 @@ if ($realizarBusca2){
                                     '.$_REQUEST['txtBusca2'].' rdfs:subClassOf* ?type .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -232,8 +219,7 @@ if ($realizarBusca2){
                                     ?type rdfs:subClassOf* '.$_REQUEST['txtBusca2'].' .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -241,8 +227,7 @@ if ($realizarBusca2){
                                     '.$_REQUEST['txtBusca2'].' prov:wasDerivedFrom*  ?type .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         } UNION {
@@ -250,8 +235,7 @@ if ($realizarBusca2){
                                     ?type prov:wasDerivedFrom* '.$_REQUEST['txtBusca2'].' .
                                     ?type rdfs:label ?label .
                                 FILTER (
-                                    LANG(?label) = "en" ||
-                                    LANG(?label) = "pt" 	#em inglês ou português
+                                    LANG(?label) = "en"
                                 )
                             }
                         }
@@ -285,8 +269,7 @@ if ($realizarBusca2){
                                 ?predicateURI rdfs:label ?predicateLabel.
 
                                 FILTER (
-                                        LANG(?predicateLabel) = "en" ||
-                                        LANG(?predicateLabel) = "pt" 	#em inglês ou português
+                                        LANG(?predicateLabel) = "en"
                                 )
                             }
                         } UNION {
@@ -299,8 +282,7 @@ if ($realizarBusca2){
                                 ?predicateURI rdfs:label ?predicateLabel.
 
                                 FILTER (
-                                    LANG(?predicateLabel) = "en" ||
-                                    LANG(?predicateLabel) = "pt" #em inglês ou português
+                                    LANG(?predicateLabel) = "en"
                                 )
                             }
                         }
@@ -330,8 +312,7 @@ if ($realizarBusca2){
                                 ?predicateURI rdfs:label ?predicateLabel.
 
                                 FILTER (
-                                       LANG(?predicateLabel) = "en" ||
-                                       LANG(?predicateLabel) = "pt" 	#em inglês ou português
+                                       LANG(?predicateLabel) = "en"
                                 )
                             }
                         } UNION {
@@ -344,8 +325,7 @@ if ($realizarBusca2){
                                 ?predicateURI rdfs:label ?predicateLabel.
 
                                 FILTER (
-                                    LANG(?predicateLabel) = "en" ||
-                                    LANG(?predicateLabel) = "pt" #em inglês ou português
+                                    LANG(?predicateLabel) = "en"
                                 )
                             }
                         }
