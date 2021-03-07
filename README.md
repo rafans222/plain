@@ -4,6 +4,8 @@ Módulo de Consulta a Catálogos de Vocabulários Controlados:
 
 Aplicação WEB que permite a realização de uma série de consultas ao SPARQL Endpoint do Linked Open Vocabularies - LOV.
 
+![Interface do Módulo de Consulta a Catálogos de Vocabulários Controlados](./screenshots/PLAIN_home_0.png)
+
 Módulo para Extração de Relações:
 
 Script em Python que realiza a leitura de um arquivo com um conjunto de sentenças.
